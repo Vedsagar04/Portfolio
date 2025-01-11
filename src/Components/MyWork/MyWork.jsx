@@ -1,7 +1,6 @@
 import React from "react";
 import "./MyWork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import mywork_data from "../../assets/mywork_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
 import project1 from "../../assets/Calculator.png";
 import project2 from "../../assets/ToDolist.png";
