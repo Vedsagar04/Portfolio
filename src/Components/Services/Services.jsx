@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import "./Services.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import Services_Data from "../../assets/services_data.js";
@@ -28,4 +28,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Services;*/
