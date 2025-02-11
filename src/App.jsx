@@ -3,7 +3,6 @@ import Navbar from "./Components/Navbar.jsx";
 import Hero from './Components/Hero/Hero.jsx';
 import About from './Components/About/About.jsx';
 import MyWork from './Components/MyWork/MyWork.jsx';
-import Services from './Components/Services/Services.jsx';
 import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 
@@ -13,7 +12,6 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
       <MyWork />
       <Contact />
       <Footer />
