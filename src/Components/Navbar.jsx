@@ -25,7 +25,7 @@ const Navbar = () => {
                 <img src={menu_close} onClick={closeMenu} alt="menu" className="nav-mob-close" />
                 <li><AnchorLink className='anchor-link' offset={50} href="#home"><p onClick={() => setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt="underline" />:""}</li>
                 <li><AnchorLink className='anchor-link' offset={50} href="#about"><p onClick={() => setMenu("about")}>About Me</p></AnchorLink>{menu==="about"?<img src={underline} alt="underline" />:""}</li>
-                <li><AnchorLink className='anchor-link' offset={50} href="#work"><p onClick={() => setMenu("portfolio")}>Projects</p></AnchorLink>{menu==="portfolio"?<img src={underline} alt="underline" />:""}</li>
+                <li><AnchorLink className='anchor-link' offset={50} href="#work"><p onClick={() => setMenu("portfolio")}>My Work</p></AnchorLink>{menu==="portfolio"?<img src={underline} alt="underline" />:""}</li>
                 <li><AnchorLink className='anchor-link' offset={50} href="#contact"><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline} alt="underline" />:""}</li>
             </ul>
             <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href="#contact">Connect With Me</AnchorLink></div>
